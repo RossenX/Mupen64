@@ -1,0 +1,146 @@
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  asm_defines.c
+  
+  %define offsetof_struct_cached_interp_invalid_code (0x00000000)
+  %define offsetof_struct_cp0_count_per_op (0x0000017c)
+  %define offsetof_struct_cp0_last_addr (0x00000178)
+  %define offsetof_struct_cp0_tlb (0x00000180)
+  %define offsetof_struct_device_r4300 (0x00000000)
+  %define offsetof_struct_new_dynarec_hot_state_branch_target (0x00000320)
+  %define offsetof_struct_new_dynarec_hot_state_cp0_regs (0x00000190)
+  %define offsetof_struct_new_dynarec_hot_state_cp1_regs_double (0x00000290)
+  %define offsetof_struct_new_dynarec_hot_state_cp1_regs_simple (0x00000210)
+  %define offsetof_struct_new_dynarec_hot_state_cycle_count (0x00000044)
+  %define offsetof_struct_new_dynarec_hot_state_dynarec_local (0x00000000)
+  %define offsetof_struct_new_dynarec_hot_state_fake_pc (0x00000328)
+  %define offsetof_struct_new_dynarec_hot_state_fcr0 (0x00000074)
+  %define offsetof_struct_new_dynarec_hot_state_fcr31 (0x00000078)
+  %define offsetof_struct_new_dynarec_hot_state_hi (0x00000180)
+  %define offsetof_struct_new_dynarec_hot_state_invc_ptr (0x00000054)
+  %define offsetof_struct_new_dynarec_hot_state_lo (0x00000188)
+  %define offsetof_struct_new_dynarec_hot_state_memory_map (0x000006cc)
+  %define offsetof_struct_new_dynarec_hot_state_mini_ht (0x000003cc)
+  %define offsetof_struct_new_dynarec_hot_state_next_interrupt (0x00000040)
+  %define offsetof_struct_new_dynarec_hot_state_pc (0x00000324)
+  %define offsetof_struct_new_dynarec_hot_state_pcaddr (0x0000004c)
+  %define offsetof_struct_new_dynarec_hot_state_pending_exception (0x00000048)
+  %define offsetof_struct_new_dynarec_hot_state_rd (0x000003c0)
+  %define offsetof_struct_new_dynarec_hot_state_regs (0x00000080)
+  %define offsetof_struct_new_dynarec_hot_state_restore_candidate (0x000004cc)
+  %define offsetof_struct_new_dynarec_hot_state_rounding_modes (0x00000310)
+  %define offsetof_struct_new_dynarec_hot_state_rs (0x000003b0)
+  %define offsetof_struct_new_dynarec_hot_state_rt (0x000003b8)
+  %define offsetof_struct_new_dynarec_hot_state_stop (0x00000050)
+  %define offsetof_struct_r4300_core_cached_interp (0x00000098)
+  %define offsetof_struct_r4300_core_cp0 (0x029016d4)
+  %define offsetof_struct_r4300_core_extra_memory (0x00501000)
+  %define offsetof_struct_r4300_core_new_dynarec_hot_state (0x02501000)
+  %define offsetof_struct_tlb_entries (0x00000000)
+  %define offsetof_struct_tlb_LUT_r (0x00000680)
+  %define offsetof_struct_tlb_LUT_w (0x00400680)
+  
+  callbacks.c
+  common.c
+  config.c
+  debugger.c
+  frontend.c
+  vidext.c
+  video_capture_backend.c
+  input_plugin_compat.c
+  audio_plugin_compat.c
+  clock_ctime_plus_delta.c
+  dummy_video_capture.c
+  file_storage.c
+  dbg_breakpoints.c
+  dbg_debugger.c
+  dbg_decoder.c
+  dbg_memory.c
+  ai_controller.c
+  af_rtc.c
+  cart.c
+  cart_rom.c
+  Generating Code...
+  Compiling...
+  eeprom.c
+  flashram.c
+  sram.c
+  game_controller.c
+  biopak.c
+  mempak.c
+  rumblepak.c
+  transferpak.c
+  dd_controller.c
+  disk.c
+..\..\src\device\dd\disk.c(287): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\..\src\device\dd\disk.c(288): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\..\src\device\dd\disk.c(323): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\..\src\device\dd\disk.c(324): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+  gb_cart.c
+  m64282fp.c
+  mbc3_rtc.c
+  bootrom_hle.c
+  cheat.c
+  device.c
+  eventloop.c
+  lirc.c
+  main.c
+..\..\src\main\main.c(1575): warning C4267: 'function': conversion from 'size_t' to 'uint8_t', possible loss of data
+  netplay.c
+..\..\src\main\netplay.c(489): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  rom.c
+  savestates.c
+  screenshot.c
+  sdl_key_converter.c
+  util.c
+..\..\src\main\util.c(1627): warning C4244: '=': conversion from 'uint16_t' to 'unsigned char', possible loss of data
+  workqueue.c
+  memory.c
+..\..\src\device\memory\memory.c(216): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+  dynamiclib_win32.c
+  files_win32.c
+  osd.c
+..\..\src\osd\osd.c(467): warning C4996: '_strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(148): note: see declaration of '_strdup'
+..\..\src\osd\osd.c(522): warning C4996: '_strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(148): note: see declaration of '_strdup'
+  pi_controller.c
+  dummy_audio.c
+  dummy_input.c
+  dummy_rsp.c
+  dummy_video.c
+  plugin.c
+  cached_interp.c
+  cp0.c
+  cp1.c
+  idec.c
+  Generating Code...
+  Compiling...
+  interrupt.c
+  mi_controller.c
+  pure_interp.c
+  r4300_core.c
+  tlb.c
+  fb.c
+  rdp_core.c
+  ri_controller.c
+  rsp_core.c
+  si_controller.c
+  vi_controller.c
+  rdram.c
+  cic.c
+  n64_cic_nus_6105.c
+  pif.c
+  md5.c
+  ioapi.c
+  unzip.c
+  zip.c
+  Generating Code...
+  oglft_c.cpp
+  OGLFT.cpp
+  Generating Code...
+  new_dynarec.c
+LINK : fatal error LNK1104: cannot open file 'Win32\New_Dynarec_Debug\linkage_x86.obj'

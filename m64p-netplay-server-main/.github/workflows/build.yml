@@ -1,0 +1,64 @@
+name: Build project
+
+on: [push, pull_request]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update and install packages
+        run: |
+          sudo apt-get -qq update
+          sudo apt-get -y install build-essential qt5-default libqt5websockets5-dev
+      - name: Run build script
+        run: |
+          mkdir build
+          cd build
+          qmake ..
+          make
+      - name: Upload file
+        uses: actions/upload-artifact@v2
+        with:
+          name: m64p-netplay-server-linux
+          path: build/m64p-netplay-server
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: msys2/setup-msys2@v2
+        with:
+          update: true
+          install: >-
+            make
+            mingw-w64-x86_64-qt5
+            mingw-w64-x86_64-gcc
+      - name: Run build script
+        run: |
+          mkdir build
+          cd build
+          msys2 -c 'qmake ..'
+          msys2 -c 'make'
+      - name: Put in folder
+        run: |
+          cd build/release
+          mkdir m64p-netplay-server
+          cd m64p-netplay-server
+          cp ../m64p-netplay-server.exe .
+          msys2 -c 'windeployqt.exe m64p-netplay-server.exe'
+          msys2 -c 'cp /mingw64/bin/libstdc++-6.dll .'
+          msys2 -c 'cp /mingw64/bin/libgcc_s_seh-1.dll .'
+          msys2 -c 'cp /mingw64/bin/libwinpthread-1.dll .'
+          msys2 -c 'cp /mingw64/bin/zlib1.dll .'
+          msys2 -c 'cp /mingw64/bin/libicuuc68.dll .'
+          msys2 -c 'cp /mingw64/bin/libpcre2-16-0.dll .'
+          msys2 -c 'cp /mingw64/bin/libzstd.dll .'
+          msys2 -c 'cp /mingw64/bin/libdouble-conversion.dll .'
+          msys2 -c 'cp /mingw64/bin/libicudt68.dll .'
+          msys2 -c 'cp /mingw64/bin/libicuin68.dll .'
+          msys2 -c 'cp /mingw64/bin/libpcre2-16-0.dll .'
+      - name: Upload folder
+        uses: actions/upload-artifact@v2
+        with:
+          name: m64p-netplay-server-win
+          path: build/release/m64p-netplay-server

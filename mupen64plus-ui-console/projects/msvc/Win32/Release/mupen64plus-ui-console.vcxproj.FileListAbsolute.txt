@@ -1,0 +1,1 @@
+D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Release\mupen64plus-ui-console.exe

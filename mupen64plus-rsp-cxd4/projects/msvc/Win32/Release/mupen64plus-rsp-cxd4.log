@@ -1,0 +1,17 @@
+﻿  module.c
+D:\VS_Projects\Mupen64\mupen64plus-rsp-cxd4\module.c(261,21): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\VS_Projects\Mupen64\mupen64plus-rsp-cxd4\module.c(524,9): warning C4101: 'recovered_from_exception': unreferenced local variable
+  osal_dynamiclib_win32.c
+  su.c
+  add.c
+  divide.c
+  logical.c
+  multiply.c
+  select.c
+  vu.c
+     Creating library D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Release\mupen64plus-rsp-cxd4.lib and object D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Release\mupen64plus-rsp-cxd4.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 160 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  mupen64plus-rsp-cxd4.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Release\mupen64plus-rsp-cxd4.dll

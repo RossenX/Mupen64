@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+x86_New_Dynarec_Debug|Win32|D:\VS_Projects\Mupen64\mupen64plus-core\projects\msvc\|

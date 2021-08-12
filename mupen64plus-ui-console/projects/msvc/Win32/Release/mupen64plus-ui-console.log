@@ -1,0 +1,28 @@
+﻿  main.c
+  Generating code
+  0 of 69 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  mupen64plus-ui-console.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Release\mupen64plus-ui-console.exe
+  Copying shared data and libraries to build directory...
+  ..\..\..\mupen64plus-core\data\font.ttf
+  ..\..\..\mupen64plus-core\data\mupen64plus.ini
+  ..\..\..\mupen64plus-core\data\mupencheat.txt
+          3 file(s) copied.
+  ..\..\..\mupen64plus-video-rice\data\RiceVideoLinux.ini
+          1 file(s) copied.
+  ..\..\..\mupen64plus-video-glide64mk2\data\Glide64mk2.ini
+          1 file(s) copied.
+  ..\..\..\mupen64plus-input-sdl\data\InputAutoCfg.ini
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\freetype-2.10.1\lib\x86\freetype.dll
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\libpng-1.6.37\lib\x86\libpng16.dll
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\SDL2-2.0.10\lib\x86\SDL2.dll
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\SDL2_net-2.0.1\lib\x86\SDL2_net.dll
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\zlib-1.2.11\lib\x86\zlib.dll
+          1 file(s) copied.

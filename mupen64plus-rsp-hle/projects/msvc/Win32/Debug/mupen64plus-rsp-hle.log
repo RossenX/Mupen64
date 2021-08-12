@@ -1,0 +1,19 @@
+﻿  alist.c
+  alist_audio.c
+  alist_naudio.c
+  alist_nead.c
+  audio.c
+  cicx105.c
+  hle.c
+  hvqm.c
+  jpeg.c
+  memory.c
+  mp3.c
+  musyx.c
+  osal_dynamiclib_win32.c
+  plugin.c
+  re2.c
+  Generating Code...
+     Creating library D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-rsp-hle.lib and object D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-rsp-hle.exp
+  mupen64plus-rsp-hle.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-rsp-hle.dll
+  mupen64plus-rsp-hle.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-rsp-hle.pdb (Full PDB)

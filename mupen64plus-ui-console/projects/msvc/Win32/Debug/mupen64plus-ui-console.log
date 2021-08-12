@@ -1,0 +1,33 @@
+﻿  cheat.c
+  compare_core.c
+  core_interface.c
+  debugger.c
+..\..\src\debugger.c(100): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+..\..\src\debugger.c(102): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+  main.c
+  osal_dynamiclib_win32.c
+  osal_files_win32.c
+  plugin.c
+  Generating Code...
+  mupen64plus-ui-console.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-ui-console.exe
+  mupen64plus-ui-console.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-ui-console.pdb (Full PDB)
+  ..\..\..\mupen64plus-core\data\font.ttf
+  ..\..\..\mupen64plus-core\data\mupen64plus.ini
+  ..\..\..\mupen64plus-core\data\mupencheat.txt
+          3 file(s) copied.
+  ..\..\..\mupen64plus-video-rice\data\RiceVideoLinux.ini
+          1 file(s) copied.
+  ..\..\..\mupen64plus-video-glide64mk2\data\Glide64mk2.ini
+          1 file(s) copied.
+  ..\..\..\mupen64plus-input-sdl\data\InputAutoCfg.ini
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\freetype-2.10.1\lib\x86\freetype.dll
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\libpng-1.6.37\lib\x86\libpng16.dll
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\SDL2-2.0.10\lib\x86\SDL2.dll
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\SDL2_net-2.0.1\lib\x86\SDL2_net.dll
+          1 file(s) copied.
+  ..\..\..\mupen64plus-win32-deps\zlib-1.2.11\lib\x86\zlib.dll
+          1 file(s) copied.

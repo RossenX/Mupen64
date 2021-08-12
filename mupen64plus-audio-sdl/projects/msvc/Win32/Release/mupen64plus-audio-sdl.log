@@ -1,0 +1,13 @@
+﻿  circular_buffer.c
+  main.c
+  osal_dynamiclib_win32.c
+  sdl_backend.c
+D:\VS_Projects\Mupen64\mupen64plus-audio-sdl\src\sdl_backend.c(206,57): warning C4267: '=': conversion from 'size_t' to 'Uint16', possible loss of data
+  resamplers.c
+  trivial.c
+     Creating library D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Release\mupen64plus-audio-sdl.lib and object D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Release\mupen64plus-audio-sdl.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 52 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  mupen64plus-audio-sdl.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Release\mupen64plus-audio-sdl.dll

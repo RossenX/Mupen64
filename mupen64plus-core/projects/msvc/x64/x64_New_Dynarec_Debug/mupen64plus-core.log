@@ -1,0 +1,176 @@
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  asm_defines.c
+  
+  %define offsetof_struct_cached_interp_invalid_code (0x00000000)
+  %define offsetof_struct_cp0_count_per_op (0x00000274)
+  %define offsetof_struct_cp0_last_addr (0x00000270)
+  %define offsetof_struct_cp0_tlb (0x00000278)
+  %define offsetof_struct_device_r4300 (0x00000000)
+  %define offsetof_struct_new_dynarec_hot_state_branch_target (0x000004e8)
+  %define offsetof_struct_new_dynarec_hot_state_cp0_regs (0x00000258)
+  %define offsetof_struct_new_dynarec_hot_state_cp1_regs_double (0x000003d8)
+  %define offsetof_struct_new_dynarec_hot_state_cp1_regs_simple (0x000002d8)
+  %define offsetof_struct_new_dynarec_hot_state_cycle_count (0x00000104)
+  %define offsetof_struct_new_dynarec_hot_state_dynarec_local (0x00000000)
+  %define offsetof_struct_new_dynarec_hot_state_fake_pc (0x000004f8)
+  %define offsetof_struct_new_dynarec_hot_state_fcr0 (0x0000013c)
+  %define offsetof_struct_new_dynarec_hot_state_fcr31 (0x00000140)
+  %define offsetof_struct_new_dynarec_hot_state_hi (0x00000248)
+  %define offsetof_struct_new_dynarec_hot_state_invc_ptr (0x00000118)
+  %define offsetof_struct_new_dynarec_hot_state_lo (0x00000250)
+  %define offsetof_struct_new_dynarec_hot_state_memory_map (0x000009e8)
+  %define offsetof_struct_new_dynarec_hot_state_mini_ht (0x000005e8)
+  %define offsetof_struct_new_dynarec_hot_state_next_interrupt (0x00000100)
+  %define offsetof_struct_new_dynarec_hot_state_pc (0x000004f0)
+  %define offsetof_struct_new_dynarec_hot_state_pcaddr (0x0000010c)
+  %define offsetof_struct_new_dynarec_hot_state_pending_exception (0x00000108)
+  %define offsetof_struct_new_dynarec_hot_state_rd (0x000005d8)
+  %define offsetof_struct_new_dynarec_hot_state_regs (0x00000148)
+  %define offsetof_struct_new_dynarec_hot_state_restore_candidate (0x000007e8)
+  %define offsetof_struct_new_dynarec_hot_state_rounding_modes (0x000004d8)
+  %define offsetof_struct_new_dynarec_hot_state_rs (0x000005c8)
+  %define offsetof_struct_new_dynarec_hot_state_rt (0x000005d0)
+  %define offsetof_struct_new_dynarec_hot_state_stop (0x00000110)
+  %define offsetof_struct_r4300_core_cached_interp (0x000000f0)
+  %define offsetof_struct_r4300_core_cp0 (0x031019f0)
+  %define offsetof_struct_r4300_core_extra_memory (0x00901000)
+  %define offsetof_struct_r4300_core_new_dynarec_hot_state (0x02901000)
+  %define offsetof_struct_tlb_entries (0x00000000)
+  %define offsetof_struct_tlb_LUT_r (0x00000680)
+  %define offsetof_struct_tlb_LUT_w (0x00400680)
+  
+  callbacks.c
+  common.c
+  config.c
+  debugger.c
+  frontend.c
+  vidext.c
+  video_capture_backend.c
+  input_plugin_compat.c
+  audio_plugin_compat.c
+  clock_ctime_plus_delta.c
+  dummy_video_capture.c
+  file_storage.c
+  dbg_breakpoints.c
+  dbg_debugger.c
+  dbg_decoder.c
+  dbg_memory.c
+  ai_controller.c
+  af_rtc.c
+  cart.c
+  cart_rom.c
+..\..\src\device\cart\cart_rom.c(110): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
+  eeprom.c
+  flashram.c
+  sram.c
+  game_controller.c
+  biopak.c
+  mempak.c
+  rumblepak.c
+  transferpak.c
+  dd_controller.c
+  disk.c
+..\..\src\device\dd\disk.c(287): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\..\src\device\dd\disk.c(288): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\..\src\device\dd\disk.c(323): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\..\src\device\dd\disk.c(324): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\..\src\device\dd\disk.c(354): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\device\dd\disk.c(359): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\device\dd\disk.c(369): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  gb_cart.c
+  m64282fp.c
+  mbc3_rtc.c
+  bootrom_hle.c
+  cheat.c
+  device.c
+..\..\src\device\device.c(137): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\device\device.c(153): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\device\device.c(160): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+  eventloop.c
+  lirc.c
+  main.c
+..\..\src\main\main.c(196): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\main\main.c(208): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\main\main.c(188): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\main\main.c(1575): warning C4267: 'function': conversion from 'size_t' to 'uint8_t', possible loss of data
+  netplay.c
+..\..\src\main\netplay.c(411): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\main\netplay.c(460): warning C4267: '+=': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\main\netplay.c(468): warning C4267: '+=': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\main\netplay.c(480): warning C4267: '+=': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\main\netplay.c(486): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\main\netplay.c(577): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  rom.c
+  savestates.c
+..\..\src\main\savestates.c(263): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\main\savestates.c(275): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\main\savestates.c(288): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\main\savestates.c(1279): warning C4267: 'function': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\main\savestates.c(1489): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+  screenshot.c
+  sdl_key_converter.c
+  util.c
+..\..\src\main\util.c(103): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\main\util.c(1627): warning C4244: '=': conversion from 'uint16_t' to 'unsigned char', possible loss of data
+  workqueue.c
+  memory.c
+..\..\src\device\memory\memory.c(216): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+  dynamiclib_win32.c
+  files_win32.c
+  osd.c
+..\..\src\osd\osd.c(467): warning C4996: '_strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(148): note: see declaration of '_strdup'
+..\..\src\osd\osd.c(522): warning C4996: '_strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(148): note: see declaration of '_strdup'
+  pi_controller.c
+  dummy_audio.c
+  dummy_input.c
+  dummy_rsp.c
+  dummy_video.c
+  plugin.c
+  cached_interp.c
+..\..\src\device\r4300\cached_interp.c(959): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  cp0.c
+  cp1.c
+  idec.c
+  Generating Code...
+  Compiling...
+  interrupt.c
+  mi_controller.c
+  pure_interp.c
+  r4300_core.c
+  tlb.c
+  fb.c
+..\..\src\device\rcp\rdp\fb.c(57): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\device\rcp\rdp\fb.c(94): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\device\rcp\rdp\fb.c(90): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\device\rcp\rdp\fb.c(184): warning C4267: 'function': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\device\rcp\rdp\fb.c(220): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+..\..\src\device\rcp\rdp\fb.c(260): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  rdp_core.c
+  ri_controller.c
+  rsp_core.c
+  si_controller.c
+  vi_controller.c
+  rdram.c
+..\..\src\device\rdram\rdram.c(110): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  cic.c
+  n64_cic_nus_6105.c
+  pif.c
+  md5.c
+  ioapi.c
+  unzip.c
+  zip.c
+  Generating Code...
+  recomp_dbg.c
+d:\vs_projects\mupen64\mupen64plus-core\src\device\r4300\new_dynarec\new_dynarec.c(2362): warning C4267: 'function': conversion from 'size_t' to 'u_int', possible loss of data
+..\..\src\device\r4300\new_dynarec\recomp_dbg.c(138): fatal error C1083: Cannot open include file: 'capstone.h': No such file or directory
+  new_dynarec.c
+..\..\src\device\r4300\new_dynarec\new_dynarec.c(2362): warning C4267: 'function': conversion from 'size_t' to 'u_int', possible loss of data
+  Generating Code...

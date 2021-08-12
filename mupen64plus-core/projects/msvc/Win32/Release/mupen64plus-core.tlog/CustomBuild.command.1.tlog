@@ -1,2 +1,0 @@
-^D:\VS_PROJECTS\MUPEN64\MUPEN64PLUS-CORE\SRC\DEVICE\R4300\X86\DYNA_START.ASM
-"..\..\..\mupen64plus-win32-deps\nasm-2.14.02\x86\nasm.exe" -i ..\..\src\ -i ..\..\src\asm_defines\ -o Win32\Release\dyna_start.obj -f win32 -d LEADING_UNDERSCORE "D:\VS_Projects\Mupen64\mupen64plus-core\src\device\r4300\x86\dyna_start.asm"

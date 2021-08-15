@@ -1,15 +1,1 @@
-﻿  module.c
-..\..\module.c(261): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-..\..\module.c(524): warning C4101: 'recovered_from_exception': unreferenced local variable
-  osal_dynamiclib_win32.c
-  su.c
-  add.c
-  divide.c
-  logical.c
-  multiply.c
-  select.c
-  vu.c
-  Generating Code...
-     Creating library D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-rsp-cxd4.lib and object D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-rsp-cxd4.exp
-  mupen64plus-rsp-cxd4.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-rsp-cxd4.dll
-  mupen64plus-rsp-cxd4.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-rsp-cxd4.pdb (Full PDB)
+﻿

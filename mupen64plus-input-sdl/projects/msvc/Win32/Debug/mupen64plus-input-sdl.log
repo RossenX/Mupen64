@@ -1,9 +1,1 @@
-﻿  autoconfig.c
-  config.c
-  osal_dynamiclib_win32.c
-  plugin.c
-  sdl_key_converter.c
-  Generating Code...
-     Creating library D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-input-sdl.lib and object D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-input-sdl.exp
-  mupen64plus-input-sdl.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-input-sdl.dll
-  mupen64plus-input-sdl.vcxproj -> D:\VS_Projects\Mupen64\mupen64plus-ui-console\projects\msvc\Win32\Debug\mupen64plus-input-sdl.pdb (Full PDB)
+﻿
